@@ -126,6 +126,31 @@ main{
     margin-top: 2px;
 }
 
+/* sponsors section */
+.sponsors-section{
+    margin-top: 180px;
+    margin-bottom: 130px;
+}
+.sponsors-text{
+    text-align: center;
+
+}
+.sponsors-icon-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.sponsor-content{
+    max-width: 50%;
+    margin: auto;
+    color: #727272;
+}
+.sponsors-icon-container img{
+    width: 165px;
+}
+
 
 
 
@@ -146,7 +171,11 @@ main{
     header{
         padding: 10px;
     }
-    nav, .group-container, .icons{
+    nav,
+    .group-container,
+    .icons,
+    .sponsors-icon-container
+    {
         
         flex-direction: column;
     }
@@ -173,15 +202,16 @@ main{
         gap: 10px;
     }
     .box{
-        width: 85%;
+        width: 80%;
         gap: 30px;
     }
+
     
     
 }
 /* tablet */
 @media screen and (min-width: 576px) and (max-width: 960px) {
-    nav, .group-container{
+    nav, .group-container, .sponsors-icon-container{
         flex-direction: column;
     }
     header{
