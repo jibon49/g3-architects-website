@@ -13,6 +13,14 @@
     color: #FFf;
     font-weight: 600;
 }
+.section-title{
+    font-size: 2.5rem;
+    color: #131313;
+    font-weight: 700;
+}
+.description-text{
+    color: #727272;
+}
 
 /* header */
 
@@ -39,11 +47,7 @@ nav li a{
     text-decoration: none;
     color: #424242;
 }
-.title{
-    font-size: 2.5rem;
-    color: #131313;
-    font-weight: 700;
-}
+
 .banner-image{
     width: 100%;
     margin-top: 20px;
@@ -58,9 +62,7 @@ nav li a{
     color: #131313;
     font-weight: 700;
 }
-.banner-description{
-    color: #727272;
-}
+
 /* main */
 main{
     max-width: 100%;
@@ -82,11 +84,7 @@ main{
     color: #727272;
     
 }
-.group-heading{
-    font-size: 2.5rem;
-    color: #131313;
-    font-weight: 700;
-}
+
 #quick{
     font-size: 2.5rem;
     color: #727272;
@@ -97,23 +95,36 @@ main{
     color: #FF900E;
     font-weight: 700;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.fact-text{
+    max-width: 600px;
+}
+.icons{
+    margin-top: 100px;
+}
+.box{
+    
+    width: 15%;
+    padding: 20px;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-text{
+    font-size: 1.2rem;
+    color: #727272;
+    margin-top: -25px;
+}
+.number{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #424242;
+    margin-top: 2px;
+}
 
 
 
@@ -135,7 +146,7 @@ main{
     header{
         padding: 10px;
     }
-    nav, .group-container{
+    nav, .group-container, .icons{
         
         flex-direction: column;
     }
@@ -158,6 +169,14 @@ main{
     main{
         padding: 50px 50px;
     }
+    .icons{
+        gap: 10px;
+    }
+    .box{
+        width: 85%;
+        gap: 30px;
+    }
+    
     
 }
 /* tablet */
@@ -168,4 +187,5 @@ main{
     header{
         padding: 10px;
     }
+
 }
